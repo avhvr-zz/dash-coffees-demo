@@ -13,4 +13,4 @@ To learn more check out our [documentation](https://plot.ly/dash).
 The following is a screenshot for the app in this repo:
 
 
-![Alt desc](https://github.com/avhvr/dash-coffees-demo-app/raw/master/data/screenshot.png)
+![Alt desc](https://github.com/avhvr/dash-coffees-demo/raw/master/data/screenshot.png)
