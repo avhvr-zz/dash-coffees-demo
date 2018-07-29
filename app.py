@@ -146,4 +146,4 @@ app.css.append_css({"external_url": "https://fonts.googleapis.com/css?family=Pro
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
