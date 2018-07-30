@@ -95,7 +95,7 @@ def update_range(value):
     """
     global df
     min, max = df.timestamp.iloc[value[0]], df.timestamp.iloc[value[-1]]
-    return '{} | {}'.format(min, max)
+    return 'timestamp slider: {} | {}'.format(min, max)
 
 @app.callback(Output('total-coffees', 'children'),
               [Input('timestamp-slider', 'value')])
@@ -105,7 +105,7 @@ def update_info(value):
     """
     global df
     tc = sum(df.coffees.iloc[value[0]: value[-1]])
-    return '{}'.format(tc)
+    return 'no of coffees in range: {}'.format(tc)
 
 @app.callback(Output('GRAPH-1', 'figure'),
               [Input('timestamp-slider', 'value')])
